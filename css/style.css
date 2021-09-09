@@ -454,7 +454,7 @@ footer {
 @media screen and (min-width: 768px) {
 
     body {
-        background-color: grey;
+        background: grey;
     }
 
     .mobil {
