@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: url("../img/background.png");
+    background-size: cover;
 }
 
 section {
@@ -145,14 +146,11 @@ footer {
 .m_buttons {
     display: grid;
     grid-column: auto;
-
-    bottom: 0%;
+    border-radius: 10px;
+    background-color: rgba(80, 165, 0, 0.767);
     padding: .3rem;
-    /* column-gap: 5%; */
-    padding: px;
-
-    background-color: rgb(81, 165, 0);
-    /* padding: 2px; */
+    margin-top: 1rem;
+    margin-bottom: 4.25rem;
 }
 
 .uncolor {
@@ -181,7 +179,7 @@ footer {
 .pwrapper {
     display: grid;
     grid-column: auto;
-    column-gap: 2%;
+    column-gap: .3rem;
 }
 
 .awrapper {
@@ -269,26 +267,47 @@ footer {
     grid-row: 1;
 }
 
+.mp_case1,
+.mp_case2,
+.mp_case3,
+.mp_case4,
+.mp_case5 {
+    grid-row: 1;
+}
+
 .pcase1 {
     grid-column: 1;
     grid-row: 1;
     color: white;
     background-color: rgb(81, 165, 0);
     padding: 5px;
-    margin-top: 1rem;
+    border-radius: 6px 6px 0 0;
 }
 
 .pcase2 {
-    grid-column: 2;
-    grid-row: 1;
+    grid-column: 1;
+    grid-row: 2;
     color: white;
     background-color: rgb(81, 165, 0);
     padding: 5px;
-    margin-top: 1rem;
+}
+
+.pcase3 {
+    grid-column: 1;
+    grid-row: 3;
+    color: white;
+    background-color: rgb(81, 165, 0);
+    padding: 5px;
+    border-radius: 0 0 6px 6px;
+    margin-bottom: 1rem;
 }
 
 .p_bar {
-    margin-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    background: white;
+    height: 5px;
+    border-radius: 3px;
 }
 
 .acase0 {
@@ -355,7 +374,7 @@ footer {
     grid-column: 1;
     grid-row: 1;
     color: white;
-    background-color: rgb(81, 165, 0);
+    background-color: rgb(80, 165, 0);
     padding: 5px;
 }
 
@@ -431,6 +450,17 @@ footer {
     font-size: 45px;
 }
 
+.la-fast-backward,
+.la-undo-alt,
+.la-play,
+.la-random,
+.la-fast-forward {
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+
+}
+
+.mcase,
 .n_album,
 .n_artiste,
 .n_musique {

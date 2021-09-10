@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../img/logo.png">
     <script src="../js/check.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chance/1.0.18/chance.min.js" defer></script>
     <script src="../js/play.js" defer></script>
     <link rel="icon" href="../img/logo.png">
     <link rel="stylesheet" href="../css/style.css">
@@ -22,47 +23,40 @@
             <img src="" alt="jaquette_musique" class="case1" id="jaquette" width="100%">
         </div>
         <section class="uncolor">
-            <div class="wrapper">
-                <div class="mcase">
-                    <span class="n_musique">TITRE MUSIQUE</span>
-                </div>
-            </div>
             <div class="pwrapper">
-                <span class="pcase1 n_album">TITRE ALBUM</span>
-                <span class="pcase2 n_artiste">NOM ARTISTE</span>
+                <span class="pcase1 n_artiste">NOM ARTISTE</span>
+                <span class="pcase2 n_album">TITRE ALBUM</span>
+                <span class="pcase3 n_musique">TITRE MUSIQUE</span>
             </div>
 
-            <img src="../img/progress_bar.svg" alt="progress_bar" class="p_bar" width="100%">
+            <div class="p_bar"> </div>
 
             <div class="m_buttons">
-                <div class="fcase1">
-                    <a href="">
+                <div class="mp_case1">
+                    <a href="" class="bprev">
                         <i class="las la-fast-backward"></i>
                     </a>
                 </div>
-                <div class="fcase2">
-                    <a href="">
-                        <i class="las la-undo-alt"></i>
-                    </a>
+                <div class="mp_case2">
+                    <i class="las la-undo-alt"></i>
                 </div>
-                <div class="fcase3">
-                    <a href="">
-                        <i class="las la-play-circle"></i>
-                    </a>
+
+
+                <div class="mp_case3">
+                    <i class="las la-play"></i>
                 </div>
-                <div class="fcase4">
-                    <a href="">
-                        <i class="las la-random"></i>
-                    </a>
-                </div>
-              
-                </div>
-                <div class="fcase5">
-                    <a href="">
+                <a href="" class="mp_case4">
+                    <i class="las la-random"></i>
+                </a>
+                <div class="mp_case5">
+
+                    <a href="" class="bnext">
                         <i class="las la-fast-forward"></i>
                     </a>
                 </div>
-               
+
+            </div>
+
             </div>
         </section>
 
@@ -71,22 +65,16 @@
                 <i class="las la-home"></i>
             </a>
             <div class="fcase2">
-                <a href="">
-                    <i class="las la-heart"></i>
-                </a>
+                <i class="las la-heart"></i>
             </div>
             <div class="fcase4">
-                <a href="">
-                    <i class="las la-search"></i>
-                </a>
+                <i class="las la-search"></i>
             </div>
             <div class="fcase3">
-                <a href="">
-                    <i class="las la-file-video"></i>
-                </a>
+                <i class="las la-file-video"></i>
             </div>
-
         </div>
+
     </main>
 </body>
 
