@@ -150,8 +150,7 @@ footer {
 .m_buttons {
     display: grid;
     grid-column: auto;
-    border-radius: 10px;
-    background-color: rgba(80, 165, 0, 0.767);
+    background-color: rgba(39, 39, 39, 0.95);
     padding: .3rem;
     margin-top: 1rem;
     margin-bottom: 4.25rem;
@@ -208,6 +207,7 @@ footer {
 .case1 {
     grid-column: 1;
     grid-row: 1;
+
 }
 
 .case2 {
@@ -309,8 +309,17 @@ footer {
 .p_bar {
     margin-top: 2rem;
     margin-bottom: 3rem;
-    background: white;
-    height: 5px;
+    background: rgb(180, 180, 180);
+    height: 8px;
+    border-radius: 3px;
+}
+
+.pbar {
+    width: 70px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    background: rgb(255, 255, 255);
+    height: 8px;
     border-radius: 3px;
 }
 
@@ -318,10 +327,10 @@ footer {
     width: 16px;
     height: 16px;
 
-    margin-left: 30%;
+    margin-left: 80%;
     transform: translate(-5%, -30%);
     border-radius: 50%;
-    border: solid 1.5px rgb(184, 184, 184);
+    border: solid 2px rgb(235, 235, 235);
     background-color: rgb(27, 27, 27);
 }
 
@@ -460,6 +469,13 @@ footer {
     padding-top: 1.25rem;
 }
 
+.las2 {
+    color: black;
+    font-size: 45px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
 .las {
     color: black;
     font-size: 45px;
@@ -467,11 +483,15 @@ footer {
 
 .la-fast-backward,
 .la-undo-alt,
-.la-play,
 .la-random,
+.la-play,
+
 .la-fast-forward {
     color: rgb(255, 255, 255);
-    font-size: 45px;
+    font-size: 40px;
+
+
+
 
 }
 
@@ -500,7 +520,7 @@ footer {
 
 .jaq_album {
     border-style: solid;
-    border-image: linear-gradient(rgb(165, 0, 81),rgb(0, 81, 165)) 60;
+    border-image: linear-gradient(rgb(9, 158, 22), rgb(0, 81, 165)) 60;
 }
 
 @media screen and (min-width: 768px) {
